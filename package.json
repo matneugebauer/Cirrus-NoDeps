@@ -1,5 +1,5 @@
 {
-  "name": "cirrus-ui",
+  "name": "cirrus-ui-63-no-deps",
   "version": "0.6.3",
   "description": "A lightweight UI framework written in CSS",
   "main": "./dist/cirrus.min.css",
@@ -8,30 +8,26 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp minify",
-    "prepare": "npm run snyk-protect",
-    "snyk-protect": "snyk-protect"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
-  "repository": "git+https://github.com/Spiderpig86/Cirrus.git",
+  "repository": "git+hhttps://github.com/matneugebauer/Cirrus-NoDeps.git",
   "keywords": [
     "cirrus",
     "css",
     "UI",
     "framework"
   ],
-  "author": "Stanley Lim",
+  "author": "Mathias Neugebauer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Spiderpig86/Cirrus/issues"
+    "url": "https://github.com/matneugebauer/Cirrus-NoDeps/issues"
   },
-  "homepage": "https://github.com/Spiderpig86/Cirrus",
+  "homepage": "https://github.com/matneugebauer/Cirrus-NoDeps",
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/Spiderpig86/Cirrus.git",
+    "target": "git://github.com/matneugebauer/Cirrus-NoDeps.git",
     "basePath": "dist",
     "files": [
       "cirrus.min.css",
@@ -65,8 +61,5 @@
     "Opera >= 30"
   ],
   "dependencies": {
-    "node-sass": "^6.0.1",
-    "@snyk/protect": "1.707.0"
-  },
-  "snyk": true
+  }
 }
